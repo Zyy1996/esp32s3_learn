@@ -14,7 +14,11 @@ idf.py build -p /dev/ttyACM0 flash monitor
 ```
 
 ### 烧录
+```bash
+idf.py build -p /dev/ttyACM0 flash monitor
 ```
 
+### 配置参数
+```bash
+idf.py menuconfig
 ```
-
