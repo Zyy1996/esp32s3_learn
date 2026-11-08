@@ -9,13 +9,13 @@
 
 ### 编译
 ```bash
-idf.py build -p /dev/ttyACM0 flash monitor
+idf.py -p /dev/ttyACM0 build flash monitor
 
 ```
 
 ### 烧录
 ```bash
-idf.py build -p /dev/ttyACM0 flash monitor
+idf.py -p /dev/ttyACM0 build flash monitor
 ```
 
 ### 配置参数
